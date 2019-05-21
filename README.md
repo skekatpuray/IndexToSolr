@@ -1,6 +1,7 @@
 # IngestSolr
 Spark code to index dataset into Solr
-Script to execute
+
+##### Script to execute
 
 ```sh
 spark-submit \
