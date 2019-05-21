@@ -14,3 +14,7 @@ spark-submit \
 --myjar \
 hdfs://DEV-CLUSTER/user/someUserId/yellowCab.csv COLLECTION_NAME zk1:2181,zk2:2181,zk3:2181/solr
 ```
+
+
+
+[Dataset link](https://github.com/lucidworks/spark-solr/blob/master/src/test/resources/test-data/nyc_yellow_taxi_sample_1k.csv)
