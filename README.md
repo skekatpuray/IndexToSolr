@@ -1,5 +1,5 @@
 # IngestSolr
-Spark code to index dataset into Solr
+Spark code to index dataset into HDP Search (Solr/Kerberized)
 
 ##### Script to execute
 
