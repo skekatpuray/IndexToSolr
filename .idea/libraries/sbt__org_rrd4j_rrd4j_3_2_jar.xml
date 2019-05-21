@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.rrd4j:rrd4j:3.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.rrd4j/rrd4j/jars/rrd4j-3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

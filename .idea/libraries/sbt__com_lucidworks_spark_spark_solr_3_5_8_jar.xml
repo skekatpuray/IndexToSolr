@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: com.lucidworks.spark:spark-solr:3.5.8:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.lucidworks.spark/spark-solr/jars/spark-solr-3.5.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

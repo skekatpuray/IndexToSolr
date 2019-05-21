@@ -1,0 +1,1 @@
+case class SolrEventDocument( id : Int, fareAmount : Double, paymentType : Int, tripDistance : Double )
