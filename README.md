@@ -12,7 +12,7 @@ spark-submit \
 --conf "spark.executor.extraJavaOptions=-Djava.security.auth.login.config=/home/someUserId/Solr_Client.jaas"
 --principal someUserId@EXAMPLE.DOMAIN.CORP \
 --keytab /home/someUserId/copyOfSomeUserId.keytab
---myjar \
+--solrclient_2.12-0.1.jar \
 hdfs://DEV-CLUSTER/user/someUserId/yellowCab.csv COLLECTION_NAME zk1:2181,zk2:2181,zk3:2181/solr
 ```
 
