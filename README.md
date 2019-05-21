@@ -16,6 +16,17 @@ spark-submit \
 hdfs://DEV-CLUSTER/user/someUserId/yellowCab.csv COLLECTION_NAME zk1:2181,zk2:2181,zk3:2181/solr
 ```
 
-
+##### Solr_Client.jaas
+```sh
+Client{
+  com.sun.security.auth.module.Krb5LoginModule required
+  useKeyTab=true
+  keyTab=/home/someUserId/someUserId.keytab
+  storeKey=true
+  useTicketCache=false
+  debug=true
+  principal="someUserId@EXAMPLE.DOMAIN.CORP";
+};
+```
 
 [Dataset link](https://github.com/lucidworks/spark-solr/blob/master/src/test/resources/test-data/nyc_yellow_taxi_sample_1k.csv)
